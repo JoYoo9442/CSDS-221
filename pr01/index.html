@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Booking Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Toastr CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!-- Moment JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h2 style="color: red;">Bootstrap Booking Form</h2>
+    <div class="well">Fill out the form and click the submit button when complete...</div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">User:</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="username" style="margin-left: 15px; width: 120px;">Username:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Type username..." style="width: 360px" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="firstName" style="margin-left: 15px; width: 120px;">First Name:</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Type first name..." style="width: 360px" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName" style="margin-left: 15px; width: 120px;">Last Name:</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Type last name..." style="width: 360px" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Contact:</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon" style="width:40px;"><i class="fa fa-phone"></i></span>
+                            <input type="text" class="form-control" id="phone" placeholder="Type phone#..." style="width: 480px;"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon" style="width:40px;"><i class="fa fa-fax"></i></span>
+                            <input type="text" class="form-control" id="fax" placeholder="Type fax#..." style="width: 480px;"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon" style="width: 40px;"><i class="fa fa-envelope"></i></span>
+                            <input type="text" class="form-control" id="email" placeholder="Type e-mail..." style="width: 480px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Schedule:</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label for="numAdults">Adults:</label>
+                            <select class="form-control" id="numAdults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <label for="checkIn">Check-In:</label>
+                                <input type="date" class="form-control" style="width: 240px;" id="checkIn" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <label for="checkOut">Check-Out:</label>
+                                <input type="date" class="form-control" style="width: 240px;" id="checkOut" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="days">Days:</label>
+                            <input type="text" class="form-control" id="days" readonly style="width: 240px;" placeholder="Displays days..." />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="cost">Cost:</label>
+                            <input type="text" class="form-control" id="cost" readonly style="width: 240px;" placeholder="Displays cost..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Other:</h3>
+                </div>
+
+                <div class="panel-body" style="height: 596px">
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" placeholder="Type message..." style="height: 417px;"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="range">Range:</label>
+                        <input type="range" class="form-control" id="range" min="0" max="10" value="5" />
+                    </div>
+                    <div class="form-group">
+                        <label for="priority">Priority:</label>
+                        <div class="radio">
+                            <label style="margin-right: 20px"><input type="radio" name="priority" value="low" checked />Low</label>
+                            <label style="margin-right: 20px"><input type="radio" name="priority" value="medium" />Medium</label>
+                            <label style="margin-right: 20px"><input type="radio" name="priority" value="high" />High</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-right" style="margin-left: -15px; margin-bottom: 20px">
+                <button type="button" class="btn btn-primary" id="submit">Submit</button>
+                <button type="button" class="btn btn-danger" id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

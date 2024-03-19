@@ -1,0 +1,11 @@
+{
+  "name": "pr01",
+  "version": "1.0.0",
+  "description": "Project 1 for CSDS221",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Yoo",
+  "license": "ISC"
+}
