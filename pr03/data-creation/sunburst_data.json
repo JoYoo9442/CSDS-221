@@ -1,0 +1,478 @@
+{
+    "name": "root",
+    "sum": 513954,
+    "children": [
+        {
+            "name": "Roles",
+            "sum": 171318,
+            "children": [
+                {
+                    "name": "Top",
+                    "sum": 31606,
+                    "children": [
+                        {
+                            "name": "Vayne",
+                            "value": 1545
+                        },
+                        {
+                            "name": "Malphite",
+                            "value": 2963
+                        },
+                        {
+                            "name": "Akali",
+                            "value": 10383
+                        },
+                        {
+                            "name": "TwistedFate",
+                            "value": 3205
+                        },
+                        {
+                            "name": "Ryze",
+                            "value": 1600
+                        },
+                        {
+                            "name": "TahmKench",
+                            "value": 2066
+                        },
+                        {
+                            "name": "Yone",
+                            "value": 1348
+                        },
+                        {
+                            "name": "Teemo",
+                            "value": 2506
+                        },
+                        {
+                            "name": "Maokai",
+                            "value": 2520
+                        },
+                        {
+                            "name": "Kled",
+                            "value": 1539
+                        },
+                        {
+                            "name": "Swain",
+                            "value": 1931
+                        }
+                    ]
+                },
+                {
+                    "name": "Jungle",
+                    "sum": 1449,
+                    "children": [
+                        {
+                            "name": "Sejuani",
+                            "value": 1449
+                        }
+                    ]
+                },
+                {
+                    "name": "Middle",
+                    "sum": 111517,
+                    "children": [
+                        {
+                            "name": "Akali",
+                            "value": 9457
+                        },
+                        {
+                            "name": "Katarina",
+                            "value": 71303
+                        },
+                        {
+                            "name": "TwistedFate",
+                            "value": 5093
+                        },
+                        {
+                            "name": "Vex",
+                            "value": 2380
+                        },
+                        {
+                            "name": "Hwei",
+                            "value": 2259
+                        },
+                        {
+                            "name": "Ahri",
+                            "value": 2222
+                        },
+                        {
+                            "name": "Zoe",
+                            "value": 1844
+                        },
+                        {
+                            "name": "Yone",
+                            "value": 3159
+                        },
+                        {
+                            "name": "Karma",
+                            "value": 9744
+                        },
+                        {
+                            "name": "Kassadin",
+                            "value": 1843
+                        },
+                        {
+                            "name": "Smolder",
+                            "value": 2213
+                        }
+                    ]
+                },
+                {
+                    "name": "Bottom",
+                    "sum": 7639,
+                    "children": [
+                        {
+                            "name": "Samira",
+                            "value": 1435
+                        },
+                        {
+                            "name": "Smolder",
+                            "value": 1739
+                        },
+                        {
+                            "name": "Caitlyn",
+                            "value": 3223
+                        },
+                        {
+                            "name": "TahmKench",
+                            "value": 1242
+                        }
+                    ]
+                },
+                {
+                    "name": "Support",
+                    "sum": 19107,
+                    "children": [
+                        {
+                            "name": "Pantheon",
+                            "value": 3819
+                        },
+                        {
+                            "name": "Thresh",
+                            "value": 4989
+                        },
+                        {
+                            "name": "Milio",
+                            "value": 1948
+                        },
+                        {
+                            "name": "Janna",
+                            "value": 3049
+                        },
+                        {
+                            "name": "Karma",
+                            "value": 5302
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Champions",
+            "sum": 171318,
+            "children": [
+                {
+                    "name": "Pantheon",
+                    "value": 3819
+                },
+                {
+                    "name": "Akali",
+                    "value": 19840
+                },
+                {
+                    "name": "Thresh",
+                    "value": 4989
+                },
+                {
+                    "name": "Katarina",
+                    "value": 71303
+                },
+                {
+                    "name": "Vayne",
+                    "value": 1545
+                },
+                {
+                    "name": "Malphite",
+                    "value": 2963
+                },
+                {
+                    "name": "TwistedFate",
+                    "value": 8298
+                },
+                {
+                    "name": "Ryze",
+                    "value": 1600
+                },
+                {
+                    "name": "Milio",
+                    "value": 1948
+                },
+                {
+                    "name": "TahmKench",
+                    "value": 3308
+                },
+                {
+                    "name": "Vex",
+                    "value": 2380
+                },
+                {
+                    "name": "Hwei",
+                    "value": 2259
+                },
+                {
+                    "name": "Ahri",
+                    "value": 2222
+                },
+                {
+                    "name": "Yone",
+                    "value": 4507
+                },
+                {
+                    "name": "Zoe",
+                    "value": 1844
+                },
+                {
+                    "name": "Samira",
+                    "value": 1435
+                },
+                {
+                    "name": "Smolder",
+                    "value": 3952
+                },
+                {
+                    "name": "Janna",
+                    "value": 3049
+                },
+                {
+                    "name": "Karma",
+                    "value": 15046
+                },
+                {
+                    "name": "Caitlyn",
+                    "value": 3223
+                },
+                {
+                    "name": "Teemo",
+                    "value": 2506
+                },
+                {
+                    "name": "Kassadin",
+                    "value": 1843
+                },
+                {
+                    "name": "Sejuani",
+                    "value": 1449
+                },
+                {
+                    "name": "Maokai",
+                    "value": 2520
+                },
+                {
+                    "name": "Kled",
+                    "value": 1539
+                },
+                {
+                    "name": "Swain",
+                    "value": 1931
+                }
+            ]
+        },
+        {
+            "name": "Calendar",
+            "sum": 171318,
+            "children": [
+                {
+                    "name": "January",
+                    "sum": 6936,
+                    "children": [
+                        {
+                            "name": 31,
+                            "value": 2984
+                        },
+                        {
+                            "name": 25,
+                            "value": 2091
+                        },
+                        {
+                            "name": 24,
+                            "value": 1861
+                        }
+                    ]
+                },
+                {
+                    "name": "February",
+                    "sum": 65477,
+                    "children": [
+                        {
+                            "name": 26,
+                            "value": 4876
+                        },
+                        {
+                            "name": 25,
+                            "value": 4349
+                        },
+                        {
+                            "name": 24,
+                            "value": 3705
+                        },
+                        {
+                            "name": 23,
+                            "value": 5079
+                        },
+                        {
+                            "name": 22,
+                            "value": 5516
+                        },
+                        {
+                            "name": 13,
+                            "value": 1540
+                        },
+                        {
+                            "name": 11,
+                            "value": 5603
+                        },
+                        {
+                            "name": 9,
+                            "value": 4822
+                        },
+                        {
+                            "name": 8,
+                            "value": 8051
+                        },
+                        {
+                            "name": 6,
+                            "value": 1812
+                        },
+                        {
+                            "name": 5,
+                            "value": 4275
+                        },
+                        {
+                            "name": 2,
+                            "value": 9896
+                        },
+                        {
+                            "name": 1,
+                            "value": 5953
+                        }
+                    ]
+                },
+                {
+                    "name": "March",
+                    "sum": 35015,
+                    "children": [
+                        {
+                            "name": 22,
+                            "value": 5271
+                        },
+                        {
+                            "name": 20,
+                            "value": 4623
+                        },
+                        {
+                            "name": 8,
+                            "value": 5876
+                        },
+                        {
+                            "name": 7,
+                            "value": 8321
+                        },
+                        {
+                            "name": 5,
+                            "value": 7051
+                        },
+                        {
+                            "name": 1,
+                            "value": 3873
+                        }
+                    ]
+                },
+                {
+                    "name": "April",
+                    "sum": 63890,
+                    "children": [
+                        {
+                            "name": 22,
+                            "value": 1843
+                        },
+                        {
+                            "name": 20,
+                            "value": 1894
+                        },
+                        {
+                            "name": 19,
+                            "value": 1976
+                        },
+                        {
+                            "name": 16,
+                            "value": 10238
+                        },
+                        {
+                            "name": 15,
+                            "value": 1545
+                        },
+                        {
+                            "name": 12,
+                            "value": 1964
+                        },
+                        {
+                            "name": 6,
+                            "value": 10958
+                        },
+                        {
+                            "name": 4,
+                            "value": 16099
+                        },
+                        {
+                            "name": 3,
+                            "value": 3444
+                        },
+                        {
+                            "name": 2,
+                            "value": 13929
+                        }
+                    ]
+                },
+                {
+                    "name": "May",
+                    "sum": 0,
+                    "children": []
+                },
+                {
+                    "name": "June",
+                    "sum": 0,
+                    "children": []
+                },
+                {
+                    "name": "July",
+                    "sum": 0,
+                    "children": []
+                },
+                {
+                    "name": "August",
+                    "sum": 0,
+                    "children": []
+                },
+                {
+                    "name": "September",
+                    "sum": 0,
+                    "children": []
+                },
+                {
+                    "name": "October",
+                    "sum": 0,
+                    "children": []
+                },
+                {
+                    "name": "November",
+                    "sum": 0,
+                    "children": []
+                },
+                {
+                    "name": "December",
+                    "sum": 0,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
