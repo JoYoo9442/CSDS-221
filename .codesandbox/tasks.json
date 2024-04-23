@@ -2,8 +2,8 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "name": "c",
-      "command": "cd pr03 && cd frontend && npm install"
+      "name": "cd pr03/frontend && npm install",
+      "command": "cd pr03/frontend && npm install"
     }
   ],
 
@@ -11,11 +11,6 @@
   "tasks": {
     "n": {
       "name": "n",
-      "command": "npm start",
-      "runAtStart": true
-    },
-    "c": {
-      "name": "c",
       "command": "cd pr03/frontend && npm start",
       "runAtStart": true,
       "preview": {
